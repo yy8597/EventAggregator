@@ -13,7 +13,7 @@ function Event(name) {
                 break;
             }
         }
-    };
+    }; 
     this.fire = function(eventArgs) {
         handlers.forEach(function(h) {
             h(eventArgs);
